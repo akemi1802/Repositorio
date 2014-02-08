@@ -1,0 +1,8 @@
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Model\bin\Debug\Model.dll.config
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Model\bin\Debug\Model.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Model\bin\Debug\Model.pdb
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Model\bin\Debug\Service.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Model\bin\Debug\Service.pdb
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Model\obj\Debug\Model.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Model\obj\Debug\Model.pdb

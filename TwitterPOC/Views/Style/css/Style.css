@@ -1,0 +1,128 @@
+﻿.title{
+    font-family:Verdana;
+    font-size:46px;
+    font-weight:bold;
+    color:#f9f9f9;
+}
+
+.titleblack{
+    font-family:Verdana;
+    font-size:36px;
+    font-weight:bold;
+    color:#000000;
+}
+
+.subtitle{
+    font-family:Verdana;
+    font-size:16px;
+    font-weight:bold;
+    color:#000000;
+}
+
+.bgLogin
+{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:5px;
+    padding-right:5px;
+    background-color:#28347F;
+    font-family:Verdana;
+    font-size:12px;
+    color:#FFF;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+body   
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: Verdana
+    padding: 0px;
+    color: #696969;
+}
+
+.login
+{   
+    text-align: right;
+    margin-left: 450px;
+}
+
+.page
+{
+    width: 960px;
+    height:600px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.h1
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    line-height: 2em;
+    font-size: 20px;
+}
+
+.txtboxP
+{
+    width:120px;
+    border-width:1px;
+    border-radius: 15px;
+}
+.txtboxM
+{
+    width:250px;
+    border-width:1px;
+    border-radius: 15px;
+}
+.txtboxG
+{
+    width:500px;
+    border-width:1px;
+    border-radius: 15px;
+}
+
+a:link, a:visited
+{
+    color: #FFF;
+}
+
+a:hover
+{
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #FFF;
+}
+
+.div-left
+{
+    width:600px;
+    float:left;
+}
+.div-right
+{
+    width:350px;
+    float:left;
+    background-color:#696969;
+}

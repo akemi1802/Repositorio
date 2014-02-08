@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ProfileServices" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:58787/ProfileServices.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:58787/ProfileServices.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:58787/ProfileServices.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Service" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IProfileServices_PostTweet_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostTweet" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_PostTweet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostTweetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_ReturnIdUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReturnIdUser" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_ReturnIdUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReturnIdUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_ListTweets_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListTweets" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_ListTweets_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListTweetsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_SearchTweets_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchTweets" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_SearchTweets_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchTweetsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_GetUsername_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsername" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_GetUsername_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_Following_InputMessage">
+    <wsdl:part name="parameters" element="tns:Following" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_Following_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FollowingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_Follow_InputMessage">
+    <wsdl:part name="parameters" element="tns:Follow" />
+  </wsdl:message>
+  <wsdl:message name="IProfileServices_Follow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FollowResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IProfileServices">
+    <wsdl:operation name="PostTweet">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfileServices/PostTweet" message="tns:IProfileServices_PostTweet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfileServices/PostTweetResponse" message="tns:IProfileServices_PostTweet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnIdUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfileServices/ReturnIdUser" message="tns:IProfileServices_ReturnIdUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfileServices/ReturnIdUserResponse" message="tns:IProfileServices_ReturnIdUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListTweets">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfileServices/ListTweets" message="tns:IProfileServices_ListTweets_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfileServices/ListTweetsResponse" message="tns:IProfileServices_ListTweets_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchTweets">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfileServices/SearchTweets" message="tns:IProfileServices_SearchTweets_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfileServices/SearchTweetsResponse" message="tns:IProfileServices_SearchTweets_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsername">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfileServices/GetUsername" message="tns:IProfileServices_GetUsername_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfileServices/GetUsernameResponse" message="tns:IProfileServices_GetUsername_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Following">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfileServices/Following" message="tns:IProfileServices_Following_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfileServices/FollowingResponse" message="tns:IProfileServices_Following_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Follow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IProfileServices/Follow" message="tns:IProfileServices_Follow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IProfileServices/FollowResponse" message="tns:IProfileServices_Follow_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IProfileServices" type="tns:IProfileServices">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PostTweet">
+      <soap:operation soapAction="http://tempuri.org/IProfileServices/PostTweet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnIdUser">
+      <soap:operation soapAction="http://tempuri.org/IProfileServices/ReturnIdUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListTweets">
+      <soap:operation soapAction="http://tempuri.org/IProfileServices/ListTweets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchTweets">
+      <soap:operation soapAction="http://tempuri.org/IProfileServices/SearchTweets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsername">
+      <soap:operation soapAction="http://tempuri.org/IProfileServices/GetUsername" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Following">
+      <soap:operation soapAction="http://tempuri.org/IProfileServices/Following" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Follow">
+      <soap:operation soapAction="http://tempuri.org/IProfileServices/Follow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ProfileServices">
+    <wsdl:port name="BasicHttpBinding_IProfileServices" binding="tns:BasicHttpBinding_IProfileServices">
+      <soap:address location="http://localhost:58787/ProfileServices.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

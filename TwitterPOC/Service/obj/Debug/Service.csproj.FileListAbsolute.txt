@@ -1,0 +1,4 @@
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Service\bin\Service.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Service\bin\Service.pdb
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Service\obj\Debug\Service.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Service\obj\Debug\Service.pdb

@@ -1,0 +1,11 @@
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\obj\Debug\Views.csprojResolveAssemblyReference.cache
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\bin\Views.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\bin\Views.pdb
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\bin\Presenter.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\bin\Model.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\bin\Service.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\bin\Presenter.pdb
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\bin\Model.pdb
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\bin\Service.pdb
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\obj\Debug\Views.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Views\obj\Debug\Views.pdb

@@ -1,0 +1,9 @@
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Presenter\bin\Debug\Presenter.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Presenter\bin\Debug\Presenter.pdb
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Presenter\bin\Debug\Model.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Presenter\bin\Debug\Service.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Presenter\bin\Debug\Model.pdb
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Presenter\bin\Debug\Service.pdb
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Presenter\obj\Debug\Presenter.csprojResolveAssemblyReference.cache
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Presenter\obj\Debug\Presenter.dll
+C:\Users\Akemi\Desktop\VS\TwitterPOC\Presenter\obj\Debug\Presenter.pdb
