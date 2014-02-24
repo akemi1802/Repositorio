@@ -1,0 +1,10 @@
+﻿@using (Html.BeginForm("Search", "Tweet", FormMethod.Get))
+{
+    <fieldset>
+        <legend>Search Tweets</legend>
+        <div class="editor-field">
+            @Html.TextBox("text")
+            <input type="submit" value="Search" />
+        </div>
+    </fieldset>
+}

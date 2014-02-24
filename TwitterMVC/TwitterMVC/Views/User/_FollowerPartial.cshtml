@@ -1,0 +1,16 @@
+﻿@model TwitterMVC.ViewModels.UserViewModels
+           
+<fieldset>
+    <legend>Followers</legend>
+    @foreach (var item in Model.ListFollower)
+    {
+        <div class="boxtweet">
+            <div class="display-label">
+                Name: @Html.DisplayFor(modelItem => item.Name)
+            </div>
+            <div class="display-label">
+                Username: @Html.DisplayFor(modelItem => item.Username)
+            </div>
+        </div>
+    }
+</fieldset>

@@ -1,0 +1,6 @@
+C:\Users\Akemi\Desktop\VS\TwitterMVC\TwitterMVC\bin\TwitterMVC.dll
+C:\Users\Akemi\Desktop\VS\TwitterMVC\TwitterMVC\bin\TwitterMVC.pdb
+C:\Users\Akemi\Desktop\VS\TwitterMVC\TwitterMVC\bin\EntityFramework.dll
+C:\Users\Akemi\Desktop\VS\TwitterMVC\TwitterMVC\bin\EntityFramework.xml
+C:\Users\Akemi\Desktop\VS\TwitterMVC\TwitterMVC\obj\Debug\TwitterMVC.dll
+C:\Users\Akemi\Desktop\VS\TwitterMVC\TwitterMVC\obj\Debug\TwitterMVC.pdb

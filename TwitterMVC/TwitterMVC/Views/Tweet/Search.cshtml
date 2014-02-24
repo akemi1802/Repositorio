@@ -1,0 +1,23 @@
+﻿@model IEnumerable<TwitterMVC.Models.TweetModel>
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search</h2>
+
+<div class="div-left">
+    <fieldset>
+        <legend>Search Result</legend>
+        @foreach (var item in Model)
+        {
+            <div class="boxtweet">
+                <div class="display-label">
+                    @Html.DisplayFor(modelItem => item.Texto)
+                </div>
+                <div class="display-label">
+                    @Html.DisplayFor(modelItem => item.Posted)
+                </div>
+            </div>
+        }
+    </fieldset>
+</div>

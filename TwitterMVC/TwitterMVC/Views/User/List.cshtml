@@ -1,0 +1,30 @@
+﻿@model IEnumerable<TwitterMVC.Models.UserModel>
+@{
+    ViewBag.Title = "List";
+}
+
+<div class="div-left">
+    <fieldset>
+        <legend>Who to Follow</legend>
+        @foreach (var item in Model)
+        {
+            <div class="boxtweet">
+                <div class="display-label">
+                    name
+                    @Html.DisplayFor(modelItem => item.Name)
+                </div>
+                <div class="display-label">
+                    username
+                    @Html.DisplayFor(modelItem => item.Username)
+                </div>
+                <div class="display-label">
+                    email
+                    @Html.DisplayFor(modelItem => item.Email)
+                </div>
+                <div class="display-label">
+                    @Html.ActionLink("Follow", "Follow", "Follow", new { id = item.ID },"")
+                </div>
+            </div>
+        }
+    </fieldset>
+</div>

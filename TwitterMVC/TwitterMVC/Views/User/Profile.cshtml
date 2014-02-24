@@ -1,0 +1,29 @@
+﻿@model TwitterMVC.ViewModels.UserViewModels
+@{
+    ViewBag.Title = "Profile";
+}
+
+<h2>Profile</h2>
+
+<div class="div-left">
+    <fieldset>
+        <legend>Details</legend>
+        <div class="display-label">
+            Name:
+            @Html.DisplayFor(model => model.UserVM.Name)
+        </div>
+        <div class="display-label">
+            Username:
+            @Html.DisplayFor(model => model.UserVM.Username)
+        </div>
+        <div class="display-label">
+            Email:
+            @Html.DisplayFor(model => model.UserVM.Email)
+        </div>
+    </fieldset>
+    @Html.Partial("_FollowingPartial", Model)
+    @Html.Partial("_FollowerPartial", Model)
+</div>
+<div class="div-right">
+    @Html.Partial("_ListPartial", Model)
+</div>

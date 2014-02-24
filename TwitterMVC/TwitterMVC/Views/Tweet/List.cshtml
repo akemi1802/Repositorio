@@ -1,0 +1,34 @@
+﻿@model IEnumerable<TwitterMVC.Models.TweetModel>
+@{
+    ViewBag.Title = "List";
+    var myid = Convert.ToInt32(TempData["idUser"]);
+    
+}
+
+<div class="div-left">
+    <fieldset>
+        <legend>Timeline</legend>
+        @foreach (var item in Model)
+        {
+            <div class="boxtweet">
+                <div class="display-label">
+                    @Html.DisplayFor(modelItem => item.Texto)
+                </div>
+                <div class="display-label">
+                    @Html.DisplayFor(modelItem => item.Posted)
+                </div>
+                @if (item.UserID == myid)
+                {
+                    <div class="display-label">
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                    </div>
+                }
+            </div>
+        }
+    </fieldset>
+</div>
+<div class="div-right">
+    @Html.Partial("~/Views/Tweet/_SearchPartial.cshtml")</div>
+<div class="div-right">
+    @Html.Partial("~/Views/Tweet/_TweetPartial.cshtml", new TwitterMVC.Models.TweetModel())
+</div>

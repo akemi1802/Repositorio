@@ -1,0 +1,12 @@
+﻿@if (Request.IsAuthenticated)
+{
+    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+    <li>@Html.ActionLink("Profile", "Profile", "User")</li>
+    <li>@Html.ActionLink("Timeline","List","Tweet")</li>
+}
+else
+{
+    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+    <li>@Html.ActionLink("Create Account", "Register", "User")</li>
+    <li>@Html.ActionLink("Login", "Login", "User")</li>
+}

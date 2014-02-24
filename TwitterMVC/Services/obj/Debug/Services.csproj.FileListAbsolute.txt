@@ -1,0 +1,7 @@
+C:\Users\Akemi\Desktop\VS\TwitterMVC\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Akemi\Desktop\VS\TwitterMVC\Services\bin\Services.dll
+C:\Users\Akemi\Desktop\VS\TwitterMVC\Services\bin\Services.pdb
+C:\Users\Akemi\Desktop\VS\TwitterMVC\Services\bin\EntityFramework.dll
+C:\Users\Akemi\Desktop\VS\TwitterMVC\Services\bin\EntityFramework.xml
+C:\Users\Akemi\Desktop\VS\TwitterMVC\Services\obj\Debug\Services.dll
+C:\Users\Akemi\Desktop\VS\TwitterMVC\Services\obj\Debug\Services.pdb

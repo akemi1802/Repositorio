@@ -1,0 +1,19 @@
+﻿@model TwitterMVC.ViewModels.UserViewModels
+           
+<fieldset>
+    <legend>Following</legend>
+    @foreach (var item in Model.ListFollowing)
+    {
+        <div class="boxtweet">
+            <div class="display-label">
+                Name: @Html.DisplayFor(modelItem => item.Name)
+            </div>
+            <div class="display-label">
+                Username: @Html.DisplayFor(modelItem => item.Username)
+            </div>
+            <div class="display-label">
+                @Html.ActionLink("Unfollow", "Unfollow", "Follow", new { id = item.ID }, "")
+            </div>
+        </div>
+    }
+</fieldset>
